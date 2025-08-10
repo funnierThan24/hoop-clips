@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+__pycache__
+firebase_key.json
+.venv
+venv
+eslint.config.js
+index.html
+package-lock.json
+package.json
+vite.config.js
