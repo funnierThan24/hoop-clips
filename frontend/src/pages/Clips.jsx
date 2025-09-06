@@ -43,7 +43,9 @@ function ClipsPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {clips.map((clip) => (
             <ClipCard
-              key={clip.clip_id}
+              className="cursor-pointer bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition"
+              key = {clip.clip_id}
+              id = {clip.clip_id}
               description={clip.description}
               clip_url={clip.clip_url}
               players={clip.players}
