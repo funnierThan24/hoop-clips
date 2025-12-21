@@ -26,7 +26,7 @@ dist-ssr
 __pycache__/
 firebase_key.json
 .venv
-venv
+venv/
 eslint.config.js
 index.html
 package-lock.json
