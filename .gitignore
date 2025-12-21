@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-__pycache__
+__pycache__/
 firebase_key.json
 .venv
 venv
